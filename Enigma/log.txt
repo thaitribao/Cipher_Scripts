@@ -1,0 +1,54 @@
+=================
+12-21-2016 17:06:44
+=================
++ Rotors.xls created: 2 rotors
++ Mirrors.xls created: 1 mirror
++ RotorBox.py created: 2 rotor-arrays
++ MirrorBox.py created: 1 mirror-array
++ Enigma.py created: rotor and mirror accessibility tested, lookup for position tested
+*****************
+
+=================
+12-21-2016 18:12:27
+=================
++ Rotor amount selection tested
++ Rotor selection tested
++ Initial rotor shift selection tested
+*****************
+
+=================
+12-22-2016 16:29:52
+=================
++ findInput function created, tested. 
++ rotors modified: shifts instead of hard-coded position
++ mirrors remained unchanged
++ going down rotors is fine. mirror is fine
++ about to test going up rotors with findInput
+*****************
+
+=================
+12-22-2016 16:37:00
+=================
++ Successful test for 2 rotors, both using rotor 0, shift of 0, mirror 1, no rotor spin
+*****************
+
+=================
+12-22-2016 16:54:59
+=================
++ Added rotor shifting with fibonacci squence pattern
++ Not tested
+*****************
+
+=================
+12-22-2016 17:20:50
+=================
++ Individual rotor shift tested. Success. Note: Rotor shifts starts at 2nd character. 
+*****************
+
+=================
+12-22-2016 17:47:15
+=================
++ File I/O tested. Input file was encoded succesfully. Output file, when encoded with same key, returned original file. 
++ 2 rotors used, shift = 0. Resulting text same as when tested without file IO.
+*****************
+
